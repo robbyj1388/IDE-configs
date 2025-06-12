@@ -38,21 +38,21 @@ This is my personal development environment built on top of [NvChad](https://git
 🚀 Getting Started
 1. Install NvChad
 
-    git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+    `git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim`
 
 2. Add Custom Config
 
 Copy your plugins.lua and lspconfig.lua files into:
 
-    ~/.config/nvim/lua/custom/
+    `~/.config/nvim/lua/custom/`
 
 3. Open Neovim and install LSPs
 
-    :Mason
+    `:Mason`
 
 Use the UI to install pyright, rust-analyzer.
 4. Install Treesitter parsers
 
-    :TSInstall lua python rust markdown
+    `:TSInstall lua python rust markdown`
 
 
